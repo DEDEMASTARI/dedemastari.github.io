@@ -344,7 +344,7 @@ main {
 
 .service .col-left {
   text-align: center;
-  margin: 1.5rem 0 1.5rem 0;
+  margin: 1.5rem 0 3rem;
 }
 
 .service .col-right {
@@ -355,7 +355,7 @@ main {
 
 .service .col-right .box {
   display: flex;
-  margin: 0 auto 1rem;
+  margin: 0 auto 2.5rem;
   padding-bottom: 1rem;
   align-items: center;
   border-bottom: 0.1rem solid var(--bg-white);
@@ -492,104 +492,7 @@ main {
 
 .copyright {
   background: var(--bg-primary);
+  font-size: 0.5rem;
   text-align: center;
   padding: 0.5rem;
 }
-
-/** Outline */
-/* header {
-  border: 2.5px solid green;
-} */
-
-/** Navbar */
-/* .navbar {
-  border: 1px solid orangered;
-}
-.navbar .navbar-brand {
-  border: 1px solid orangered;
-}
-
-.navbar .navbar-menu {
-  border: 1px solid orangered;
-} */
-
-/* .banner .banner-text {
-  border: 1px solid orangered;
-}
-
-.banner .banner-button {
-  border: 1px solid orangered;
-}
-
-.banner .banner-image {
-  border: 1px solid orangered;
-} */
-
-/* main {
-  border: 2.5px solid green;
-} */
-
-/** About */
-/* .about {
-  border: 1px solid orangered;
-}
-
-.about .title {
-  border: 1px solid orangered;
-}
-
-.about .col-right {
-  border: 1px solid orangered;
-}
-
-.about .skill {
-  border: 1px solid orangered;
-}
-
-.about .skill .container {
-  border: 1px solid orangered;
-}
-
-.about .col-left {
-  border: 1px solid orangered;
-} */
-
-/** Service */
-/* .service {
-  border: 1px solid orangered;
-}
-
-.service .title {
-  border: 1px solid orangered;
-}
-
-.service .col-left {
-  border: 1px solid orangered;
-}
-
-.service .col-right {
-  border: 1px solid orangered;
-} */
-
-/* footer {
-  border: 2.5px solid green;
-} */
-
-/* .contact {
-  border: 1px solid orangered;
-}
-
-.contact .box {
-  border: 1px solid orangered;
-}
-
-.contact .col-right {
-  border: 1px solid orangered;
-}
-.contact .col-right .input-box {
-  border: 1px solid orangered;
-} */
-
-/* .contact form {
-  border: 1px solid orangered;
-} */
