@@ -265,7 +265,7 @@ main {
 
 /** About */
 .about {
-  padding: 6.05rem 2rem 0;
+  padding: 7rem 2rem 0;
 }
 
 .about .col-left {
@@ -339,7 +339,7 @@ main {
 
 /** Service */
 .service {
-  padding: 6.05rem 2rem 0;
+  padding: 7rem 2rem 0;
 }
 
 .service .col-left {
@@ -355,26 +355,32 @@ main {
 
 .service .col-right .box {
   display: flex;
-  width: 100%;
-  max-width: 30rem;
   margin: 0 auto 1rem;
-  /* border-radius: 1rem; */
-  /* background-color: var(--bg-white); */
-  padding: 1rem;
-  /* border: 1px solid orangered; */
+  padding-bottom: 1rem;
   align-items: center;
   border-bottom: 0.1rem solid var(--bg-white);
 }
 
-/* .service .col-right .box h4 {
-  color: var(--text-black);
-} */
-
-/* .service .col-right .box .logo img {
-  width: 100%;
-  max-width: 12.5rem;
+.service .col-right .box .logo img {
+  max-width: 8rem;
+  max-height: 8rem;
+  padding: 1rem;
   background-color: var(--bg-white);
-} */
+  border-radius: 0.75rem;
+}
+.service .col-right .box .logo {
+  margin: 0 0.5rem;
+}
+
+/* .service .col-right .box {
+  display: flex;
+  width: 100%;
+  max-width: 30rem;
+  margin: 0 auto 1rem;
+  padding: 1rem;
+  align-items: center;
+  border-bottom: 0.1rem solid var(--bg-white);
+}
 
 .service .col-right .box .logo i {
   font-size: 4rem;
@@ -383,13 +389,13 @@ main {
   padding: 0.5rem;
   border-radius: 0.5rem;
   margin: 0.5rem;
-}
+} */
 
 /** Footer */
 .contact {
   display: flex;
   flex-direction: column;
-  padding: 6.05rem 2rem 0;
+  padding: 7rem 2rem 0;
 }
 
 .contact .title {
