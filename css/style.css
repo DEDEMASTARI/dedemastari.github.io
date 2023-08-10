@@ -281,9 +281,8 @@ main {
 .about .col-left .skill {
   display: flex;
   justify-content: space-evenly;
-  border-bottom: 0.1rem solid var(--bg-white);
   text-align: center;
-  margin: 1.5rem 0 2.5rem;
+  margin: 1.5rem 0 1rem;
   padding: 0.75rem;
 }
 
@@ -304,6 +303,54 @@ main {
 .about .col-left .skill .text {
   font-size: 1rem;
   font-weight: 600;
+}
+
+/* * Other skills */
+.about .col-left .other-desc h5 {
+  text-align: left;
+  font-size: 0.75rem;
+}
+
+.about .col-left .other-skill {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-evenly; */
+  border-bottom: 0.1rem solid var(--bg-white);
+  text-align: center;
+  padding: 0.75rem;
+  border: 1px solid orangered;
+}
+
+.about .col-left .other-skill .container {
+  position: relative;
+  /* border: 1px solid orangered; */
+  width: 5rem;
+  height: 5rem;
+}
+
+.about .col-left .other-skill .icon {
+  position: absolute;
+  font-size: 1.5rem;
+  color: var(--text-black);
+  background-color: var(--bg-white);
+  min-height: 3rem;
+  min-width: 3rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  /* border: 1px solid orangered; */
+  left: 1rem;
+}
+
+.about .col-left .other-skill .text {
+  position: absolute;
+  font-size: 0.75rem;
+  font-weight: 600;
+  min-width: 5rem;
+  bottom: 0;
+  /* border: 1px solid orangered; */
 }
 
 .about .col-right .container {
@@ -371,25 +418,6 @@ main {
 .service .col-right .box .logo {
   margin: 0 0.5rem;
 }
-
-/* .service .col-right .box {
-  display: flex;
-  width: 100%;
-  max-width: 30rem;
-  margin: 0 auto 1rem;
-  padding: 1rem;
-  align-items: center;
-  border-bottom: 0.1rem solid var(--bg-white);
-}
-
-.service .col-right .box .logo i {
-  font-size: 4rem;
-  color: var(--text-black);
-  background-color: var(--bg-white);
-  padding: 0.5rem;
-  border-radius: 0.5rem;
-  margin: 0.5rem;
-} */
 
 /** Footer */
 .contact {
@@ -492,7 +520,7 @@ main {
 
 .copyright {
   background: var(--bg-primary);
-  font-size: 0.5rem;
+  font-size: 0.75rem;
   text-align: center;
   padding: 0.5rem;
 }
