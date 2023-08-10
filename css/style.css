@@ -323,8 +323,8 @@ main {
 .about .col-left .other-skill .container {
   position: relative;
   width: 4rem;
-  height: 4rem;
-  margin-bottom: 0.25rem;
+  height: 3.5rem;
+  margin-bottom: 0.75rem;
   /* border: 1px solid orangered; */
 }
 
