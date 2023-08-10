@@ -293,7 +293,6 @@ main {
   width: 6rem;
   height: 6rem;
   margin: 0 0.1rem 0.75rem;
-  /* border: 1px solid orangered; */
 }
 
 .about .col-left .skill .icon {
@@ -319,7 +318,6 @@ main {
   font-size: 1rem;
   font-weight: 600;
   width: 6rem;
-  /* border: 1px solid orangered; */
 }
 
 /* * Other skills */
