@@ -322,10 +322,11 @@ main {
 
 .about .col-left .other-skill .container {
   position: relative;
+
   width: 4rem;
   height: 3.5rem;
-  margin-bottom: 0.75rem;
-  /* border: 1px solid orangered; */
+  margin: 0 0.1rem 0.75rem;
+  border: 1px solid orangered;
 }
 
 .about .col-left .other-skill .icon {
@@ -340,7 +341,7 @@ main {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  left: 1rem;
+  left: 0.8rem;
   z-index: -1;
   /* border: 1px solid orangered; */
 }
@@ -352,7 +353,7 @@ main {
   min-width: 4rem;
   bottom: 0;
   z-index: -1;
-  /* border: 1px solid orangered; */
+  border: 1px solid orangered;
 }
 
 .about .col-right .container {
