@@ -285,7 +285,6 @@ main {
   text-align: center;
   margin: 1.5rem 0 1rem;
   padding: 0.75rem;
-  border: 1px solid orangered;
 }
 
 .about .col-left .skill .container {
@@ -319,6 +318,7 @@ main {
   font-size: 1rem;
   font-weight: 600;
   width: 6rem;
+  z-index: -1;
 }
 
 /* * Other skills */
@@ -330,6 +330,7 @@ main {
 .about .col-left .other-skill {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   border-bottom: 0.1rem solid var(--bg-white);
   text-align: center;
   padding: 0.75rem;
@@ -337,7 +338,8 @@ main {
 
 .about .col-left .other-skill .container {
   position: relative;
-  width: 4rem;
+
+  width: 4.5rem;
   height: 3.5rem;
   margin: 0 0.1rem 0.75rem;
 }
@@ -354,7 +356,7 @@ main {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  left: 0.8rem;
+  left: 1.05rem;
   z-index: -1;
 }
 
@@ -362,7 +364,7 @@ main {
   position: absolute;
   font-size: 0.6rem;
   font-weight: 600;
-  min-width: 4rem;
+  min-width: 4.5rem;
   bottom: 0;
   z-index: -1;
 }
