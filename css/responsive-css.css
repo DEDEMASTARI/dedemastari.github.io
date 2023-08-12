@@ -50,9 +50,10 @@
   }
 
   .navbar .navbar-menu {
-    font-size: 1.875rem;
+    font-size: 1.5rem;
     padding-top: 1.5rem;
   }
+
   .navbar .navbar-menu li {
     padding: 1.5rem;
   }
@@ -79,7 +80,7 @@
 
   /** About */
   .about {
-    padding: 9.075rem 3rem 0;
+    padding: 10.5rem 3rem 0;
   }
 
   /** .desc for left & right */
@@ -87,21 +88,65 @@
     margin: 2.25rem 0;
   }
 
-  .about .col-left .skill {
-    border-bottom: 0.15rem solid var(--bg-white);
-    margin: 2.25rem 0 3.75rem;
-    padding: 1.125rem;
-  }
-
-  .about .col-left .skill .icon {
-    font-size: 3.75rem;
-    height: 6rem;
-    min-width: 6rem;
+  .about .col-left .desc h4 {
     margin-bottom: 0.75rem;
   }
 
-  .about .col-left .skill .text {
+  .about .col-left .skill {
+    margin: 2.25rem 0 1.5rem;
+    padding: 1.125rem;
+  }
+
+  .about .col-left .skill .container {
+    width: 9rem;
+    height: 9rem;
+    margin: 0 0.15rem 1.125rem;
+  }
+
+  .about .col-left .skill .container .icon {
+    font-size: 4.145rem;
+    height: 6rem;
+    width: 6rem;
+    margin-bottom: 0.75rem;
+    left: 1.5rem;
+  }
+
+  .about .col-left .skill .container .text {
     font-size: 1.5rem;
+    width: 9rem;
+  }
+
+  /* * Other skills */
+  .about .col-left .other-desc h5 {
+    font-size: 1.125rem;
+  }
+
+  .about .col-left .other-skill {
+    border-bottom: 0.15rem solid var(--bg-white);
+    padding: 1.125rem;
+    justify-content: space-around;
+  }
+
+  .about .col-left .other-skill .container {
+    width: 6.75rem;
+    height: 5.25rem;
+    margin: 0 0.15rem 1.125rem;
+  }
+
+  .about .col-left .other-skill .container .icon {
+    font-size: 2.25rem;
+    height: 3.6rem;
+    width: 3.6rem;
+    left: 1.575rem;
+  }
+
+  .about .col-left .other-skill .container .text {
+    font-size: 0.9rem;
+    width: 6.75rem;
+  }
+
+  .about .col-right .desc h4 {
+    margin-bottom: 0.75rem;
   }
 
   .about .col-right .container {
@@ -127,44 +172,34 @@
 
   /** Service */
   .service {
-    padding: 9.075rem 3rem 0;
+    padding: 10.5rem 3rem 0;
   }
 
   .service .col-left {
-    margin: 2.25rem 0 2.25rem 0;
+    margin: 2.25rem 0 4.5rem;
   }
-
-  /* .service .col-right .box {
-    width: 100%;
-    max-width: 50rem;
-    margin-bottom: 1rem;
-    border-bottom: 0.16rem solid var(--bg-black);
-    padding: 1rem;
-  }
-
-  .service .col-right .box h3 {
-    background-color: var(--primary-color);
-    display: block;
-    width: fit-content;
-    padding: 0.75rem 1.75rem;
-    border-radius: 2rem;
-    margin: 0.5rem auto;
-  } */
 
   .service .col-right .box {
-    max-width: 45rem;
-    margin: 0 auto 1.5rem;
-    border-radius: 1.5rem;
-    padding: 1.5rem;
+    margin: 0 auto 3.75rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 0.15rem solid var(--bg-white);
   }
 
   .service .col-right .box .logo img {
-    max-width: 18.75rem;
+    max-width: 12rem;
+    max-height: 12rem;
+    padding: 1.5rem;
+    border-radius: 1.125rem;
   }
 
+  .service .col-right .box .logo {
+    margin: 0 0.75rem;
+  }
+
+  /** Footer */
   /** Contact */
   .contact {
-    padding: 9.075rem 3rem 0;
+    padding: 10.5rem 3rem 0;
   }
 
   .contact .title {
@@ -178,7 +213,7 @@
   .contact .col-left .box .icon {
     font-size: 2.625rem;
     height: 5.25rem;
-    min-width: 5.25rem;
+    width: 5.25rem;
     margin-right: 1.5rem;
   }
 
@@ -233,6 +268,7 @@
 
   /** Copyright */
   .copyright {
+    font-size: 1.125;
     padding: 0.75rem;
   }
 }
@@ -289,7 +325,7 @@
   }
 
   .navbar .navbar-menu {
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding-top: 2rem;
   }
 
@@ -319,7 +355,7 @@
 
   /** About */
   .about {
-    padding: 12.1rem 4rem 0;
+    padding: 14rem 4rem 0;
   }
 
   /** .desc for left & right */
@@ -327,21 +363,65 @@
     margin: 3rem 0;
   }
 
-  .about .col-left .skill {
-    border-bottom: 0.2rem solid var(--bg-white);
-    margin: 3rem 0 5rem;
-    padding: 1.5rem;
-  }
-
-  .about .col-left .skill .icon {
-    font-size: 5rem;
-    height: 8rem;
-    min-width: 8rem;
+  .about .col-left .desc h4 {
     margin-bottom: 1rem;
   }
 
-  .about .col-left .skill .text {
+  .about .col-left .skill {
+    margin: 3rem 0 2rem;
+    padding: 1.5rem;
+  }
+
+  .about .col-left .skill .container {
+    width: 12rem;
+    height: 12rem;
+    margin: 0 0.2rem 1.5rem;
+  }
+
+  .about .col-left .skill .container .icon {
+    font-size: 5.526rem;
+    height: 8rem;
+    width: 8rem;
+    margin-bottom: 1rem;
+    left: 2rem;
+  }
+
+  .about .col-left .skill .container .text {
     font-size: 2rem;
+    width: 12rem;
+  }
+
+  /* * Other skills */
+  .about .col-left .other-desc h5 {
+    font-size: 1.5rem;
+  }
+
+  .about .col-left .other-skill {
+    border-bottom: 0.2rem solid var(--bg-white);
+    padding: 1.5rem;
+    justify-content: space-around;
+  }
+
+  .about .col-left .other-skill .container {
+    width: 9rem;
+    height: 7rem;
+    margin: 0 0.2rem 1.5rem;
+  }
+
+  .about .col-left .other-skill .container .icon {
+    font-size: 3rem;
+    height: 4.8rem;
+    width: 4.8rem;
+    left: 2.1rem;
+  }
+
+  .about .col-left .other-skill .container .text {
+    font-size: 1.2rem;
+    width: 9rem;
+  }
+
+  .about .col-right .desc h4 {
+    margin-bottom: 1rem;
   }
 
   .about .col-right .container {
@@ -367,58 +447,41 @@
 
   /** Service */
   .service {
-    padding: 12.1rem 4rem 0;
+    padding: 14rem 4rem 0;
   }
 
   .service .col-left {
-    margin: 3rem 0 3rem 0;
+    margin: 3rem 0 6rem;
   }
-
-  /* .service .col-right {
-    justify-content: space-around;
-  } */
 
   .service .col-right .box {
     /** max-width belum fix*/
-    max-width: 25rem;
-    margin: 0 auto 2rem;
-    border-radius: 2rem;
+    /* max-width: 25rem; */
+    margin: 0 auto 5rem;
+    padding-bottom: 2rem;
+    border-bottom: 0.2rem solid var(--bg-white);
+  }
+
+  .service .col-right .box .logo img {
+    max-width: 16rem;
+    max-height: 16rem;
     padding: 2rem;
+    border-radius: 1.5rem;
   }
 
-  .service .col-right .box .logo img {
-    max-width: 25rem;
+  .service .col-right .box .logo {
+    margin: 0 1rem;
   }
 
-  /* .service .col-right .text p {
-    font-size: 1rem;
-  }
-
-  .service .col-right .box .logo img {
-    width: 100%;
-    max-width: 12.5rem;
-  } */
-
+  /** Footer */
   /** Contact */
   .contact {
-    padding: 12.1rem 4rem 0;
+    padding: 14rem 4rem 0;
   }
 
   .contact .title {
     margin-bottom: 3rem;
   }
-
-  /* .contact .col-left {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 0 4rem 0;
-  } */
-
-  /* .contact .col-left .box {
-    width: 24rem;
-  } */
 
   .contact .col-left .box {
     margin-bottom: 2rem;
@@ -427,7 +490,7 @@
   .contact .col-left .box .icon {
     font-size: 3.5rem;
     height: 7rem;
-    min-width: 7rem;
+    width: 7rem;
     margin-right: 2rem;
   }
 
@@ -482,6 +545,7 @@
 
   /** Copyright */
   .copyright {
+    font-size: 1.5;
     padding: 1rem;
   }
 }
@@ -489,46 +553,47 @@
 @media screen and (min-width: 992px) {
   /** Button */
   .main-btn {
-    font-size: 1.35rem;
-    line-height: 4.05rem;
-    padding: 0 2.3625rem;
-    border-radius: 1.0125rem;
+    font-size: 1.25rem;
+    line-height: 3.749rem;
+    padding: 0 2.187rem;
+    border-radius: 0.9375rem;
   }
 
   h1 {
-    font-size: 3rem;
+    font-size: 3.25rem;
   }
 
   h2 {
-    font-size: 2.625rem;
+    font-size: 2.843rem;
   }
 
   h3 {
-    font-size: 2.25rem;
+    font-size: 2.436rem;
   }
 
   h4 {
-    font-size: 1.875rem;
+    font-size: 2.029rem;
   }
 
   h5 {
-    font-size: 1.5rem;
+    font-size: 1.622rem;
   }
 
   p {
-    font-size: 1.125rem;
+    font-size: 1.1rem;
   }
 
-  /** Navbar */
   .title {
     font-size: 2.25rem;
   }
 
+  /** Navbar */
   .navbar {
-    position: fixed;
+    /* position: fixed;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; */
     padding: 0.25rem 2rem;
+    /* border: solid 1px orangered; */
   }
 
   .navbar .navbar-toggle {
@@ -536,10 +601,11 @@
   }
 
   .navbar .navbar-brand {
-    justify-content: center;
-    place-items: center;
+    /* justify-content: center;
+    place-items: center; */
     font-size: 2.75rem;
     letter-spacing: 0.34375rem;
+    /* border: solid 1px orangered; */
   }
 
   .navbar .navbar-menu {
@@ -551,6 +617,7 @@
     width: 62.5%;
     flex-direction: row;
     position: relative;
+    /* border: solid 1px orangered; */
   }
 
   .navbar .navbar-menu li {
@@ -573,29 +640,34 @@
       "desc desc desc desc    desc desc desc img       img img img img"
       "btn  btn  btn  btn     btn  btn  btn img       img img img img";
     grid-template-columns: repeat(12, 1fr);
-    padding: 3rem 3rem 0;
+    padding: 0 3rem 0;
+    gap: 0.5rem;
   }
 
   .banner .banner-image {
     grid-area: img;
+    /* border: solid 1px orangered; */
   }
 
   .banner .banner-image img {
-    max-width: 37.5rem;
-    margin-top: 3rem;
+    max-width: 25.5rem;
+    /* margin-top: 3rem; */
+    /* border: solid 1px orangered; */
   }
 
   .banner .banner-text {
     grid-area: desc;
     display: flex;
     flex-direction: column;
-    align-items: start;
+    /* align-items: start; */
     place-content: end;
-    margin: 1.5rem 0;
+    margin: 0;
+    /* border: solid 1px orangered; */
   }
 
   .banner .banner-button {
     grid-area: btn;
+    /* border: solid 1px orangered; */
   }
 
   /** About */
@@ -606,8 +678,8 @@
       "left left left left        left left right right         right right right right"
       "left left left left        left left right right         right right right right";
     grid-template-columns: repeat(12, 1fr);
-    padding: 4rem 3rem 0;
-    gap: 1.5rem;
+    padding: 7rem 3rem 0;
+    gap: 4rem;
   }
 
   .about .title {
@@ -620,23 +692,57 @@
   }
 
   .about .col-left .skill {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    margin: 2.436rem 0 1.622rem;
+    padding: 1.215rem;
+    /* border: 1px solid orangered; */
   }
 
   .about .col-left .skill .container {
-    margin: 0 3rem 1rem 0;
+    width: 6.545rem;
+    height: 6.545rem;
+    margin: 0 0.109rem 0.818rem;
+    /* border: 1px solid orangered; */
   }
 
-  .about .col-left .skill .icon {
+  .about .col-left .skill .container .icon {
     font-size: 3rem;
-    height: 4.5rem;
-    min-width: 4.5rem;
+    height: 4.363rem;
+    width: 4.363rem;
+    margin-bottom: 0.545rem;
+    left: 1.091rem;
   }
 
-  .about .col-left .skill .text {
-    font-size: 1.5rem;
+  .about .col-left .skill .container .text {
+    font-size: 1.09rem;
+    width: 6.545rem;
+  }
+
+  /** Other skills */
+  .about .col-left .other-desc h5 {
+    font-size: 1.211rem;
+  }
+
+  .about .col-left .other-skill {
+    border-bottom: 0.1rem solid var(--bg-white);
+    padding: 1.211rem;
+  }
+
+  .about .col-left .other-skill .container {
+    width: 4.909rem;
+    height: 3.818rem;
+    margin: 0 0.109rem 0.8182rem;
+  }
+
+  .about .col-left .other-skill .container .icon {
+    font-size: 1.636rem;
+    height: 2.618rem;
+    width: 2.618rem;
+    left: 1.145rem;
+  }
+
+  .about .col-left .other-skill .container .text {
+    font-size: 0.654rem;
+    width: 4.909rem;
   }
 
   .about .col-right {
@@ -646,22 +752,22 @@
   .about .col-right .container {
     margin: 1.5rem 0;
     padding: 1.125rem;
-    border-bottom: 0.15rem solid var(--bg-white);
+    border-bottom: 0.1rem solid var(--bg-white);
   }
 
   .about .col-right .experience .time {
-    font-size: 1.25rem;
-    padding: 1.125rem 1.5rem;
-    border-radius: 3rem;
-    margin-bottom: 1.125rem;
+    font-size: 1.09rem;
+    padding: 0.8182rem 1.09rem;
+    border-radius: 2.1rem;
+    margin-bottom: 0.8182rem;
   }
 
   .about .col-right .experience .position {
-    font-size: 1.875rem;
+    font-size: 1.363rem;
   }
 
   .about .col-right .experience .company {
-    font-size: 1.5rem;
+    font-size: 1.09rem;
   }
 
   /** Service */
@@ -673,33 +779,39 @@
       "left left left left            left right right right          right right right right";
     gap: 1.5rem;
     grid-template-columns: repeat(12, 1fr);
-    padding: 7.5rem 3rem 0;
+    padding: 7rem 3rem 0;
   }
 
   .service .title {
     grid-area: title;
     place-self: center;
-    border: 1px solid orangered;
   }
 
   .service .col-left {
     grid-area: left;
-    text-align: center;
     margin: 2.25rem 0 2.25rem 0;
   }
 
   .service .col-right {
     grid-area: right;
     padding: 0.25rem;
-    /* border: 1px solid orangered; */
   }
 
   .service .col-right .box {
-    max-width: 18rem;
+    margin: 0 auto 4.038rem;
+    padding-bottom: 1.615rem;
+    border-bottom: 0.1rem solid var(--bg-white);
+  }
+
+  .service .col-right .box .logo {
+    margin: 0 0.807rem;
   }
 
   .service .col-right .box .logo img {
-    max-width: 8rem;
+    max-width: 12rem;
+    max-height: 12rem;
+    padding: 1.615rem;
+    border-radius: 0.75rem;
   }
 
   /** Contact */
@@ -711,7 +823,7 @@
       "left left left left            left left right right          right right right right";
     gap: 1.5rem;
     grid-template-columns: repeat(12, 1fr);
-    padding: 8.25rem 3rem 0;
+    padding: 7rem 3rem 0;
   }
 
   .contact .title {
@@ -723,14 +835,14 @@
   }
 
   .contact .col-left .box .icon {
-    font-size: 2.3625rem;
-    height: 4.725rem;
-    min-width: 4.725rem;
+    font-size: 1.909rem;
+    height: 3.818rem;
+    width: 3.818rem;
     margin-right: 1.35rem;
   }
 
   .contact .col-left .box .text {
-    font-size: 1.35rem;
+    font-size: 1.09rem;
   }
 
   .contact .col-right {
@@ -738,12 +850,12 @@
   }
 
   .contact .col-right {
-    padding: 3rem;
+    padding: 2.181rem;
     border-radius: 0.75rem;
   }
 
   .contact .col-right h4 {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.09rem;
   }
 
   .contact .col-right .input-box {
@@ -796,7 +908,7 @@
   }
   /** Copyright */
   .copyright {
-    padding: 0.75rem;
+    font-size: 1rem;
   }
 }
 
@@ -838,20 +950,35 @@
   }
 
   .banner .banner-image img {
-    max-width: 25rem;
+    max-width: 25.75rem;
   }
 
   .about {
-    padding: 4rem 3rem 0;
-    gap: 2rem;
+    padding: 6rem 3rem 0;
+    gap: 4rem;
   }
 
-  .about .col-left .skill {
-    border-bottom: 0.1rem solid var(--bg-white);
+  /** Other skills */
+  .about .col-left .other-skill {
+    padding: 1.211rem;
   }
 
-  .about .col-right .container {
-    border-bottom: 0.1rem solid var(--bg-white);
+  .about .col-left .other-skill .container {
+    width: 6.13625rem;
+    height: 4.7725rem;
+    margin: 0 0.136rem 1.02275rem;
+  }
+
+  .about .col-left .other-skill .container .icon {
+    font-size: 2.045rem;
+    height: 3.2725rem;
+    width: 3.2725rem;
+    left: 1.43125rem;
+  }
+
+  .about .col-left .other-skill .container .text {
+    font-size: 0.8175rem;
+    width: 6.13625rem;
   }
 
   .about .col-right .experience .time {
@@ -874,18 +1001,11 @@
     padding: 7rem 3rem 0;
   }
 
-  .service .col-right .box {
-    max-width: 30rem;
-  }
   .service .col-right .box h4 {
     font-size: 1.5rem;
   }
   .service .col-right .box p {
     font-size: 1rem;
-  }
-
-  .service .col-right .box .logo img {
-    max-width: 8rem;
   }
 
   /** Contact */
@@ -896,7 +1016,7 @@
   .contact .col-left .box .icon {
     font-size: 1.65375rem;
     height: 3.3075rem;
-    min-width: 3.3075rem;
+    width: 3.3075rem;
     margin-right: 0.945rem;
   }
 
