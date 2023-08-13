@@ -52,8 +52,8 @@ window.onscroll = function () {
   });
 };
 
-btnSend.addEventListener("click", function () {
-  document.getElementById("username").value = "";
-  document.getElementById("email").value = "";
-  document.getElementById("message").value = "";
-});
+// btnSend.addEventListener("click", function () {
+//   document.getElementById("username").value = "";
+//   document.getElementById("email").value = "";
+//   document.getElementById("message").value = "";
+// });
