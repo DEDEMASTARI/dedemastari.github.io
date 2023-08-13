@@ -5,6 +5,7 @@ const navbarMenu = document.querySelector(".navbar-menu");
 const bgSidebar = document.querySelector(".bg-sidebar");
 const sections = document.querySelectorAll("section");
 const navbarLinks = document.querySelectorAll("header nav ul li a");
+const btnSend = document.querySelector("footer form button");
 
 navbarToggle.addEventListener("click", function () {
   this.classList.toggle("slide");
@@ -50,3 +51,9 @@ window.onscroll = function () {
     }
   });
 };
+
+btnSend.addEventListener("click", function () {
+  document.getElementById("username").value = "";
+  document.getElementById("email").value = "";
+  document.getElementById("message").value = "";
+});

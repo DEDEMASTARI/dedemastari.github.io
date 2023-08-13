@@ -285,23 +285,39 @@
             <form action="https://formspree.io/f/xeqbaljp" method="POST">
               <h4>Send Message</h4>
               <div class="input-box">
-                <input type="text" name="username" required="required" />
+                <input
+                  type="text"
+                  id="username"
+                  name="username"
+                  required="required"
+                />
                 <span>Full Name</span>
               </div>
               <div class="input-box">
-                <input type="email" name="email" required="required" />
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required="required"
+                />
                 <span>Email</span>
               </div>
               <div class="input-box">
                 <textarea
                   type="text"
+                  id="message"
                   name="message"
                   required="required"
                 ></textarea>
                 <span>Message</span>
               </div>
               <div class="button-message">
-                <button class="main-btn primary-btn" type="submit" name="">
+                <button
+                  class="main-btn primary-btn"
+                  type="submit"
+                  id="btn-send"
+                  name=""
+                >
                   Send <i class="fa-solid fa-paper-plane"></i>
                 </button>
               </div>
