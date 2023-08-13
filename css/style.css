@@ -493,6 +493,7 @@ main {
   padding: 2rem;
   border-radius: 0.5rem;
   background: var(--bg-white);
+  /* border: 1px solid orangered; */
 }
 
 .contact .col-right h4 {
@@ -511,6 +512,7 @@ main {
   outline: none;
   resize: none;
   font-family: var(--primary-font);
+  /* border: 1px solid orangered; */
 }
 
 .contact .col-right .input-box textarea {
@@ -520,21 +522,18 @@ main {
 .contact .col-right .input-box span {
   position: absolute;
   left: 4rem;
-  padding: 0.35rem 0;
+  /* padding: 0.4rem 0; */
   font-size: 1rem;
-  margin: 0.5rem 0;
+  margin: 1.75rem 0;
   pointer-events: none;
   transition: 0.5s;
   color: var(--text-black);
+  /* border: 1px solid orangered; */
 }
 
 .contact .col-right .input-box:nth-child(4) span {
-  padding: 5.75rem 0;
-}
-
-.contact .col-right .input-box:nth-child(4) textarea:focus ~ span,
-.contact .col-right .input-box:nth-child(4) textarea:valid ~ span {
-  transform: translateY(-6.6rem);
+  /* padding: 5.75rem 0; */
+  margin: 7.25rem 0;
 }
 
 .contact .col-right .input-box input:focus ~ span,
@@ -543,7 +542,12 @@ main {
 .contact .col-right .input-box textarea:valid ~ span {
   color: var(--text-gray);
   font-size: 0.75rem;
-  transform: translateY(-1.25rem);
+  transform: translateY(-2.2rem);
+}
+
+.contact .col-right .input-box:nth-child(4) textarea:focus ~ span,
+.contact .col-right .input-box:nth-child(4) textarea:valid ~ span {
+  transform: translateY(-7.7rem);
 }
 
 .copyright {
