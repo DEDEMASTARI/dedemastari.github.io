@@ -587,11 +587,7 @@
 
   /** Navbar */
   .navbar {
-    /* position: fixed;
-    display: flex;
-    justify-content: space-between; */
     padding: 0.25rem 2rem;
-    /* border: solid 1px orangered; */
   }
 
   .navbar .navbar-toggle {
@@ -599,11 +595,8 @@
   }
 
   .navbar .navbar-brand {
-    /* justify-content: center;
-    place-items: center; */
     font-size: 2.75rem;
     letter-spacing: 0.34375rem;
-    /* border: solid 1px orangered; */
   }
 
   .navbar .navbar-menu {
@@ -615,7 +608,6 @@
     width: 62.5%;
     flex-direction: row;
     position: relative;
-    /* border: solid 1px orangered; */
   }
 
   .navbar .navbar-menu li {
@@ -648,7 +640,6 @@
 
   .banner .banner-image img {
     max-width: 20.5rem;
-    margin-top: 3rem;
   }
 
   .banner .banner-text {
@@ -687,14 +678,12 @@
   .about .col-left .skill {
     margin: 2.436rem 0 1.622rem;
     padding: 1.215rem;
-    /* border: 1px solid orangered; */
   }
 
   .about .col-left .skill .container {
     width: 6.545rem;
     height: 6.545rem;
     margin: 0 0.109rem 0.818rem;
-    /* border: 1px solid orangered; */
   }
 
   .about .col-left .skill .container .icon {
@@ -940,7 +929,7 @@
   }
 
   .banner .banner-image img {
-    /* max-width: 25.75rem; */
+    margin-top: 3rem;
   }
 
   .about {
