@@ -60,7 +60,7 @@ body {
   text-transform: uppercase;
   padding: 0 1.75rem;
   border-radius: 0.75rem;
-  box-shadow: 0 0.5rem 2rem rgb(118 85 225/30%);
+  box-shadow: 0 0.5rem 2rem rgba(118, 85, 225, 0.3);
   border: double 0.15rem transparent;
   transition: all 0.3s ease-in-out;
   --webkit-transition: all 0.3s ease-in-out;
@@ -256,8 +256,8 @@ nav ul li a:hover {
 
 .banner .banner-image img {
   width: 100%;
-  /* max-width: 25rem; */
   margin-top: 2rem;
+  border-bottom: 0.1rem solid var(--bg-white);
 }
 
 /** Main */
@@ -493,7 +493,6 @@ main {
   padding: 2rem;
   border-radius: 0.5rem;
   background: var(--bg-white);
-  /* border: 1px solid orangered; */
 }
 
 .contact .col-right h4 {
@@ -506,9 +505,9 @@ main {
   width: 100%;
   padding: 0.5rem 0;
   font-size: 1rem;
-  margin: 0.75rem 0;
+  margin: 0.95rem 0;
   border: none;
-  border-bottom: 0.1rem solid var(--bg-black);
+  border-bottom: 0.15rem solid var(--bg-black);
   outline: none;
   resize: none;
   font-family: var(--primary-font);
@@ -529,7 +528,7 @@ main {
 }
 
 .contact .col-right .input-box:nth-child(4) span {
-  margin: 7.25rem 0;
+  margin: 7.35rem 0;
 }
 
 .contact .col-right .input-box input:focus ~ span,
@@ -538,12 +537,12 @@ main {
 .contact .col-right .input-box textarea:valid ~ span {
   color: var(--text-gray);
   font-size: 0.75rem;
-  transform: translateY(-2.2rem);
+  transform: translateY(-1.75rem);
 }
 
 .contact .col-right .input-box:nth-child(4) textarea:focus ~ span,
 .contact .col-right .input-box:nth-child(4) textarea:valid ~ span {
-  transform: translateY(-7.7rem);
+  transform: translateY(-7.3rem);
 }
 
 .copyright {
