@@ -75,6 +75,7 @@
 
   .banner .banner-image img {
     max-width: 22.5rem;
+    max-height: 37.5rem;
     margin-top: 3rem;
   }
 
@@ -349,6 +350,7 @@
 
   .banner .banner-image img {
     max-width: 30rem;
+    max-height: 50.5rem;
     margin-top: 4rem;
   }
 
@@ -640,6 +642,7 @@
 
   .banner .banner-image img {
     max-width: 20.5rem;
+    max-height: unset;
   }
 
   .banner .banner-text {

@@ -256,7 +256,8 @@ nav ul li a:hover {
 
 .banner .banner-image img {
   width: 100%;
-  max-width: 15rem;
+  max-width: 17.5rem;
+  max-height: 29rem;
   margin-top: 2rem;
   border-bottom: 0.1rem solid var(--bg-white);
 }
