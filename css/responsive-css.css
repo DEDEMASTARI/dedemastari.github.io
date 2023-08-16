@@ -236,7 +236,7 @@
     padding: 0.75rem 0;
     font-size: 1.5rem;
     margin: 1.425rem 0;
-    border-bottom: 0.18rem solid var(--bg-black);
+    border-bottom: 0.15rem solid var(--bg-black);
   }
 
   .contact .col-right .input-box textarea {
@@ -513,7 +513,7 @@
     padding: 1rem 0;
     font-size: 2rem;
     margin: 1.9rem 0;
-    border-bottom: 0.24rem solid var(--bg-black);
+    border-bottom: 0.2rem solid var(--bg-black);
   }
 
   .contact .col-right .input-box textarea {
@@ -651,6 +651,12 @@
     flex-direction: column;
     place-content: end;
     margin: 0;
+    transition: letter-spacing 1s;
+    cursor: pointer;
+  }
+
+  .banner .banner-text:hover {
+    letter-spacing: 0.065rem;
   }
 
   .banner .banner-button {
@@ -853,7 +859,7 @@
     padding: 0.25rem 0;
     font-size: 1rem;
     margin: 1rem 0;
-    border-bottom: 0.15rem solid var(--bg-black);
+    border-bottom: 0.1rem solid var(--bg-black);
   }
 
   .contact .col-right .input-box textarea {
@@ -929,6 +935,10 @@
 
   .banner {
     padding: 2rem 5rem 0;
+  }
+
+  .banner .banner-text:hover {
+    letter-spacing: 0.15rem;
   }
 
   .banner .banner-image img {
