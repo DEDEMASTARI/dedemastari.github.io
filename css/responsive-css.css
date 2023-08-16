@@ -125,7 +125,7 @@
   .about .col-left .other-skill {
     border-bottom: 0.15rem solid var(--bg-white);
     padding: 1.125rem;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
 
   .about .col-left .other-skill .container {
@@ -400,7 +400,7 @@
   .about .col-left .other-skill {
     border-bottom: 0.2rem solid var(--bg-white);
     padding: 1.5rem;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
 
   .about .col-left .other-skill .container {
