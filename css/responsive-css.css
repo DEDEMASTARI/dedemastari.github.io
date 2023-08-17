@@ -651,8 +651,6 @@
     flex-direction: column;
     place-content: end;
     margin: 0;
-    transition: letter-spacing 1s;
-    cursor: pointer;
   }
 
   .banner .banner-text:hover {

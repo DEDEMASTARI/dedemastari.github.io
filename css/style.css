@@ -153,6 +153,11 @@ a {
   color: var(--text-white);
   font-family: var(--primary-font);
   text-transform: uppercase;
+  transition: letter-spacing 1s;
+}
+
+.title:hover {
+  letter-spacing: 0.25rem;
 }
 
 /** Navbar */
@@ -167,10 +172,9 @@ a {
 
 .navbar .navbar-brand {
   font-family: var(--secondary-font);
-  font-size: 2rem;
-  font-weight: 700;
   letter-spacing: 0.25rem;
-  transition: 0.5s;
+  font-size: 2rem;
+  /* font-family: var(--primary-font); */
 }
 
 .navbar .navbar-brand.slide {
@@ -247,10 +251,16 @@ nav ul li a:hover {
 /** Banner */
 .banner {
   padding: 4rem 2rem 0;
+  cursor: default;
 }
 
 .banner .banner-text {
   margin: 1rem 0;
+  transition: letter-spacing 1s;
+}
+
+.banner .banner-text:hover {
+  letter-spacing: 0.065rem;
 }
 
 .banner .banner-image {
@@ -275,6 +285,7 @@ main {
 /** About */
 .about {
   padding: 7rem 2rem 0;
+  cursor: default;
 }
 
 .about .col-left {
@@ -290,6 +301,11 @@ main {
 
 .about .col-left .desc h4 {
   margin-bottom: 0.5rem;
+  transition: letter-spacing 1s;
+}
+
+.about .col-left .desc h4:hover {
+  letter-spacing: 0.25rem;
 }
 
 .about .col-left .skill {
@@ -337,6 +353,11 @@ main {
 .about .col-left .other-desc h5 {
   text-align: left;
   font-size: 0.75rem;
+  transition: letter-spacing 1s;
+}
+
+.about .col-left .other-desc h5:hover {
+  letter-spacing: 0.25rem;
 }
 
 .about .col-left .other-skill {
@@ -383,6 +404,11 @@ main {
 /** Experience*/
 .about .col-right .desc h4 {
   margin-bottom: 0.5rem;
+  transition: letter-spacing 1s;
+}
+
+.about .col-right .desc h4:hover {
+  letter-spacing: 0.25rem;
 }
 
 .about .col-right .container {
@@ -413,11 +439,11 @@ main {
 .about .col-right .experience .company a {
   font-size: 1rem;
   color: var(--text-gray);
+  transition: 0.5s;
 }
 
 .about .col-right .experience .company a:hover {
   color: var(--text-light);
-  transition: 0.5s;
 }
 
 /** Service */
@@ -461,6 +487,7 @@ main {
   display: flex;
   flex-direction: column;
   padding: 7rem 2rem 0;
+  cursor: default;
 }
 
 .contact .title {
