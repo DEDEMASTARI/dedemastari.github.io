@@ -188,6 +188,32 @@ a {
   box-shadow: none;
   z-index: 2;
   font-size: 1.25rem;
+  position: fixed;
+  right: 2rem;
+  transition: 0.5s;
+  /* border: 1px solid orangered; */
+}
+
+.navbar .navbar-toggle.slide {
+  /* position: relative; */
+  right: 9rem;
+}
+
+.navbar .bg-sidebar {
+  background: rgba(19, 10, 37, 0.5);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  right: -100%;
+  transition: 0.5s;
+  /* border: 1px solid orangered; */
+}
+
+.navbar .bg-sidebar.slide {
+  right: 0;
+  visibility: visible;
+  display: block;
 }
 
 .navbar .navbar-menu {
@@ -197,13 +223,13 @@ a {
   height: 100%;
   width: 40%;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-end;
   position: fixed;
   font-size: 1rem;
   right: -400px;
   transition: 0.5s;
   background-color: var(--primary-color);
-  /* border-left: 1.5rem solid var(--bg-primary); */
+  border-right: 0.25rem solid var(--bg-primary);
   /* border: 1px solid orange; */
   padding-top: 1rem;
 }
@@ -214,6 +240,8 @@ a {
   padding: 1rem 0;
   /* margin: -0.1rem; */
   /* border: 1px solid orangered; */
+  right: 0;
+  /* position: relative; */
 }
 
 .navbar .navbar-menu li a {
@@ -226,29 +254,13 @@ nav ul li a:hover {
   background: var(--bg-primary);
   padding: 0.35rem 1rem;
   /* border-radius: 10rem; */
-  border-top-right-radius: 1.5rem;
-  border-bottom-right-radius: 1.5rem;
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
   transition: 0.1s;
 }
 
 .navbar .navbar-menu.slide {
-  right: 0;
-}
-
-.navbar .bg-sidebar {
-  background: rgba(19, 10, 37, 0.5);
-  position: fixed;
-  width: 100%;
-  top: 0;
-  bottom: 0;
-  right: -100%;
-  transition: 0.3s;
-}
-
-.navbar .bg-sidebar.slide {
-  right: 0;
-  visibility: visible;
-  display: block;
+  right: 0.75rem;
 }
 
 .header-scrolled {
