@@ -225,7 +225,7 @@ a {
   right: -400px;
   transition: 0.5s;
   background-color: var(--primary-color);
-  border-right: 0.5rem solid var(--bg-primary);
+  border-right: 1rem solid var(--bg-primary);
   padding-top: 1rem;
 }
 

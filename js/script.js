@@ -17,6 +17,7 @@ navbarToggle.addEventListener("click", function () {
 bgSidebar.addEventListener("click", function () {
   this.classList.remove("slide");
   logo.classList.remove("slide");
+  navbarToggle.classList.remove("slide");
   navbarMenu.classList.remove("slide");
   bgSidebar.classList.remove("slide");
 });
