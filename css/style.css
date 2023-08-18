@@ -201,20 +201,30 @@ a {
   font-size: 1rem;
   right: -400px;
   transition: 0.5s;
-  background-color: var(--bg-primary);
+  background-color: var(--primary-color);
   padding-top: 1rem;
 }
 
 .navbar .navbar-menu li {
   list-style: none;
-  padding: 1rem;
+  /* padding: 1rem; */
+  padding: 1rem 0;
+  margin: -0.1rem;
+  /* border: 1px solid orangered; */
+}
+
+.navbar .navbar-menu li a {
+  padding: 0.35rem 1rem;
+  /* border: 1px solid orange; */
 }
 
 nav ul li a.active,
 nav ul li a:hover {
-  background: var(--primary-color);
+  background: var(--bg-primary);
   padding: 0.35rem 1rem;
-  border-radius: 10rem;
+  /* border-radius: 10rem; */
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
   transition: 0.1s;
 }
 
