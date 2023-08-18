@@ -55,13 +55,18 @@
   }
 
   .navbar .navbar-menu li {
-    padding: 1.5rem;
+    padding: 1.5rem 0;
+  }
+
+  .navbar .navbar-menu li a {
+    padding: 1.2rem 1.5rem;
   }
 
   nav ul li a.active,
   nav ul li a:hover {
     padding: 0.525rem 1.5rem;
-    border-radius: 15rem;
+    border-top-left-radius: 2.25rem;
+    border-bottom-left-radius: 2.25rem;
   }
 
   /** Banner */
@@ -330,13 +335,14 @@
   }
 
   .navbar .navbar-menu li {
-    padding: 2rem;
+    padding: 2rem 0;
   }
 
   nav ul li a.active,
   nav ul li a:hover {
     padding: 0.7rem 2rem;
-    border-radius: 20rem;
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
   }
 
   /** Banner */
@@ -589,7 +595,8 @@
 
   /** Navbar */
   .navbar {
-    padding: 0.25rem 2rem;
+    /***/
+    padding: 0.25rem 1rem 0.25rem 2rem;
   }
 
   .navbar .navbar-toggle {
@@ -597,8 +604,10 @@
   }
 
   .navbar .navbar-brand {
-    font-size: 2.75rem;
+    /***/
+    font-size: 1.75rem;
     letter-spacing: 0.34375rem;
+    /* border: 1px solid orangered; */
   }
 
   .navbar .navbar-menu {
@@ -607,24 +616,35 @@
     bottom: unset;
     right: unset;
     padding: unset;
-    width: 62.5%;
+    /***/
+    width: 75%;
     flex-direction: row;
+    /* justify-content: end; */
     position: relative;
+    /* border: 1px solid orangered; */
   }
 
   .navbar .navbar-menu li {
     padding: 2rem 0;
-    font-size: 1.25rem;
-    width: 12rem;
+    font-size: 1.15rem;
+    width: 100%;
     text-align: center;
+    /* border: 1px solid orangered; */
+  }
+
+  .navbar .navbar-menu li a {
+    padding: 0.7rem 1.5rem;
   }
 
   nav ul li a.active,
   nav ul li a:hover {
-    padding: 0.525rem 1.5rem;
+    padding: unset;
+    background-color: var(--primary-color);
     border-radius: 15rem;
+    /* border: 1px solid orangered; */
   }
 
+  /** Banner */
   .banner {
     display: grid;
     grid-template-areas:
@@ -927,10 +947,24 @@
     font-size: 2.25rem;
   }
 
+  /** Navbar */
   .navbar {
     padding: 0 4rem;
   }
 
+  .navbar .navbar-brand {
+    font-size: 2.5rem;
+  }
+
+  .navbar .navbar-menu {
+    width: 60%;
+  }
+
+  .navbar .navbar-menu li {
+    font-size: 1.25rem;
+  }
+
+  /** Banner */
   .banner {
     padding: 2rem 5rem 0;
   }
