@@ -303,7 +303,10 @@ main {
 }
 
 .about .col-left {
-  text-align: center;
+  /* text-align: center; */
+  /* display: flex;
+  flex-direction: row; */
+  /* border: 1px solid orangered; */
 }
 
 /** .desc for left & right */
@@ -311,6 +314,7 @@ main {
 .about .desc {
   text-align: center;
   margin: 1.5rem 0;
+  /* border: 1px solid orangered; */
 }
 
 .about .col-left .desc h4 {
@@ -324,17 +328,39 @@ main {
 
 .about .col-left .skill {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  flex-direction: column;
   text-align: center;
   margin: 1.5rem 0 1rem;
   padding: 0.75rem;
+  /* border: 1px solid orangered; */
+}
+.about .col-left .skill .ui-ux {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border-bottom: 0.1rem solid var(--bg-white);
+  margin-bottom: 1.5rem;
+}
+.about .col-left .skill .fe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border-bottom: 0.1rem solid var(--bg-white);
+  margin-bottom: 1.5rem;
+}
+
+.about .col-left .skill .be {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border-bottom: 0.1rem solid var(--bg-white);
 }
 
 .about .col-left .skill .container {
   width: 6rem;
   height: 6rem;
   margin: 0 0.1rem 0.75rem;
+  /* border: 1px solid orangered; */
 }
 
 .about .col-left .skill .container .icon {
