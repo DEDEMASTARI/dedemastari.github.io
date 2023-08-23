@@ -342,7 +342,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  justify-content: left;
+  /* justify-content: left; */
   border-bottom: 0.1rem solid var(--bg-white);
   margin-bottom: 1.5rem;
 }
@@ -351,7 +351,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  justify-content: left;
+  /* justify-content: left; */
   border-bottom: 0.1rem solid var(--bg-white);
   margin-bottom: 1.5rem;
 }
@@ -360,7 +360,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  justify-content: left;
+  /* justify-content: left; */
   border-bottom: 0.1rem solid var(--bg-white);
 }
 
