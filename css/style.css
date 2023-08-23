@@ -336,32 +336,21 @@ main {
 
 .about .col-left .skill h5 {
   text-align: left;
+  transition: letter-spacing 1s;
 }
 
-.about .col-left .skill .ui-ux {
+.about .col-left .skill h5:hover {
+  letter-spacing: 0.25rem;
+}
+
+.about .col-left .skill .ui-ux,
+.fe,
+.be {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  /* justify-content: left; */
   border-bottom: 0.1rem solid var(--bg-white);
   margin-bottom: 1.5rem;
-}
-
-.about .col-left .skill .fe {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  /* justify-content: left; */
-  border-bottom: 0.1rem solid var(--bg-white);
-  margin-bottom: 1.5rem;
-}
-
-.about .col-left .skill .be {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  /* justify-content: left; */
-  border-bottom: 0.1rem solid var(--bg-white);
 }
 
 .about .col-left .skill .container {
