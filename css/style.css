@@ -302,15 +302,7 @@ main {
   cursor: default;
 }
 
-.about .col-left {
-  /* text-align: center; */
-  /* display: flex;
-  flex-direction: row; */
-  /* border: 1px solid orangered; */
-}
-
 /** .desc for left & right */
-
 .about .desc {
   text-align: center;
   margin: 1.5rem 0;

@@ -621,7 +621,6 @@
     /***/
     font-size: 1.75rem;
     letter-spacing: 0.34375rem;
-    /* border: 1px solid orangered; */
   }
 
   .navbar .navbar-menu {
@@ -633,9 +632,7 @@
     /***/
     width: 75%;
     flex-direction: row;
-    /* justify-content: end; */
     position: relative;
-    /* border: 1px solid orangered; */
   }
 
   .navbar .navbar-menu li {
@@ -643,7 +640,6 @@
     font-size: 1.15rem;
     width: 100%;
     text-align: center;
-    /* border: 1px solid orangered; */
   }
 
   .navbar .navbar-menu li a {
@@ -655,7 +651,6 @@
     padding: unset;
     background-color: var(--primary-color);
     border-radius: 15rem;
-    /* border: 1px solid orangered; */
   }
 
   /** Banner */
