@@ -189,12 +189,12 @@ a {
   z-index: 2;
   font-size: 1.25rem;
   position: fixed;
-  padding-right: 2.25rem; /** belum fix*/
+  right: 5%;
   transition: 0.5s;
 }
 
 .navbar .navbar-toggle.slide {
-  right: 32%;
+  right: 40%;
 }
 
 .navbar .bg-sidebar {
